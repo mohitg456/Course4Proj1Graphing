@@ -30,7 +30,7 @@ plot(xvals, pow$Sub_metering_1, ylim =  range( pow[plot3Ycolumns]),
 	 col = "black", type="n", xlab="", ylab = "Energy sub metering"
 )
 for (i in 1:3) points(xvals, pow[[plot3Ycolumns[i]]], col=plot3Colors[i], type="l")
-legend("topright", legend=plot3Ycolumns, lty=1, col=plotColors, bty="n") 
+legend("topright", legend=plot3Ycolumns, lty=1, col=plotColors, bty="n")  
 
 
 # Fourth Plot

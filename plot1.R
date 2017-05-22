@@ -19,4 +19,4 @@ hist(pow$Global_active_power,
 
 #copy screen plot to png and close png
 plot1<-dev.copy(png, filename="plot1.png")
-dev.off(plot1)
+dev.off(plot1) 

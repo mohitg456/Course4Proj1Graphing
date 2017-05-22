@@ -18,4 +18,4 @@ plot((pow$Date+pow$Time), pow$Global_active_power,
 
 #copy screen plot to png and close png
 myplot<-dev.copy(png, filename="plot2.png")
-dev.off(myplot)
+dev.off(myplot) 

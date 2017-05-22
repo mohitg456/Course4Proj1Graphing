@@ -7,7 +7,7 @@ pow<- read_delim(
 	delim=";",  na="?", quote="", col_names = T, 
 	col_types = cols(Date = col_datetime(format="%d/%m/%Y")) 
 )
-closeAllConnections()  # close the pipe 
+closeAllConnections()   # close the pipe 
 
 # open a screen of the same size as target png to avoid messing labels due to resizing while copying to png
 windows(8, 8, xpinch=60, ypinch=60 )  # 8x8 inch, 60 dpi = 480x480
